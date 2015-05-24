@@ -8,3 +8,6 @@ CACHE MANIFEST
 CACHE:
 /index.html
 /bootstrap.js
+
+NETWORK:
+/bundle.js

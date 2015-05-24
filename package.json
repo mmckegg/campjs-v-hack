@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=12999 node server.js"
+    "start": "PORT=${PORT-12999} node server.js"
   },
   "browserify": {
     "transform": [

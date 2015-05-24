@@ -34,6 +34,8 @@ http.createServer(function(req, res) {
   console.log('ready')
 })
 
+console.log(process.env.PORT)
+
 function bail(err, req, res) {
   res.setHeader('content-type', 'text/plain')
   res.statusCode = 500
