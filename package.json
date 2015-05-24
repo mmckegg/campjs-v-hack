@@ -1,0 +1,22 @@
+{
+  "name": "audio-splatter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "beefy entry.js:bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-slot": "^3.2.0",
+    "beefy": "^2.1.5",
+    "bopper": "^2.8.0",
+    "browserify": "^10.2.1",
+    "budo": "^4.0.0",
+    "ditty": "^2.5.0",
+    "loop-drop-setup": "^2.9.0",
+    "observ": "^0.2.0"
+  }
+}
