@@ -1,0 +1,26 @@
+{
+  "name": "audio-splatter",
+  "version": "1.0.0",
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "dependencies": {
+    "a-big-triangle": "^1.0.0",
+    "canvas-fit": "^1.4.0",
+    "events": "^1.0.2",
+    "getusermedia": "^1.2.1",
+    "gl-audio-analyser": "^1.0.0",
+    "gl-buffer": "^2.1.1",
+    "gl-context": "^0.1.1",
+    "gl-fbo": "^2.0.3",
+    "gl-shader": "^4.0.1",
+    "gl-vao": "^1.2.0",
+    "glsl-hash-blur": "^1.0.2",
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "0.0.0",
+    "glslify": "^2.1.2",
+    "mouse-position": "^1.0.0"
+  }
+}
