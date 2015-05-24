@@ -1,14 +1,15 @@
 {
   "name": "audio-splatter",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "beefy entry.js:bundle.js"
+    "start": "budo run.js"
   },
-  "author": "",
-  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
   "dependencies": {
     "audio-slot": "^3.2.0",
     "beefy": "^2.1.5",
@@ -17,6 +18,21 @@
     "budo": "^4.0.0",
     "ditty": "^2.5.0",
     "loop-drop-setup": "^2.9.0",
-    "observ": "^0.2.0"
+    "observ": "^0.2.0",
+    "a-big-triangle": "^1.0.0",
+    "canvas-fit": "^1.4.0",
+    "events": "^1.0.2",
+    "getusermedia": "^1.2.1",
+    "gl-audio-analyser": "^1.0.0",
+    "gl-buffer": "^2.1.1",
+    "gl-context": "^0.1.1",
+    "gl-fbo": "^2.0.3",
+    "gl-shader": "^4.0.1",
+    "gl-vao": "^1.2.0",
+    "glsl-hash-blur": "^1.0.2",
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "0.0.0",
+    "glslify": "^2.1.2",
+    "mouse-position": "^1.0.0"
   }
 }
