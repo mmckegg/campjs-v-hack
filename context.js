@@ -1,5 +1,8 @@
 var audioContext = new AudioContext()
 var Bopper = require('bopper')
+var output = audioContext.createGain()
+
+output.connect(audioContext.destination)
 
 module.exports = {
   nodes: {
@@ -30,6 +33,6 @@ module.exports = {
   },
 
   scheduler: Bopper(audioContext),
-  output: audioContext.destination,
+  output: output,
   audio: audioContext
 }

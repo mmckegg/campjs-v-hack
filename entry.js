@@ -29,9 +29,7 @@ context.scheduler.pipe(player).on('data', function(data){
   // data: id, event (start or stop), time, position, args
   if (data.event == 'start'){
     synth.triggerOn(data.args[0], data.time)
-    console.log('start', data.args[0])
   } else if (data.event == 'stop'){
     synth.triggerOff(data.args[0], data.time)
-    console.log('end', data.args[0])
   }
 })

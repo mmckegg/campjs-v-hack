@@ -5,7 +5,7 @@ function boot(audio) {
 
   const canvas   = document.body.appendChild(document.createElement('canvas'))
   const gl       = require('gl-context')(canvas, render)
-  const analyser = require('gl-audio-analyser')(gl, audio)
+  const analyser = require('gl-audio-analyser')(gl, audio, window.context.audio)
   const mouse    = require('mouse-position')()
   const triangle = require('a-big-triangle')
   const Shader   = require('gl-shader')
